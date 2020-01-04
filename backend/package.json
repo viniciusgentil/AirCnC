@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "API do projeto AirCnC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusgentil.git"
+  },
+  "keywords": [
+    "aircnc",
+    "node",
+    "api"
+  ],
+  "author": "Vinicius Barreto Gentil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusgentil/issues"
+  },
+  "homepage": "https://github.com/viniciusgentil#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.9",
+    "multer": "^1.4.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {}
+}
